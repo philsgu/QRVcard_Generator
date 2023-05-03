@@ -162,9 +162,9 @@ def check_valid():
         st.session_state.submitted = False
         st.error(f"No numerics or special characters allowed: Last")        
             
-    if not st.session_state['Email']:
-        st.session_state.submitted = False
-        st.error(f"Missing Required Value: Email")
+#     if not st.session_state['Email']:
+#         st.session_state.submitted = False
+#         st.error(f"Missing Required Value: Email")
     if st.session_state['Email']:
         if not re.match(email_format, st.session_state['Email']):
             st.session_state.submitted = False
@@ -200,7 +200,7 @@ with st.form('contact_info'):
     with add3:
         zip_code = st.text_input("Zip", key='Zip')
 
-    email = st.text_input("Email*", key='Email')
+    email = st.text_input("Email", key='Email')
     website = st.text_input("Website", key='Website')
     s1, s2, s3 = st.columns([4, 2, 4])
     with s2:
