@@ -29,7 +29,7 @@ states = ['', 'AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA',
            'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY']
 
 st.markdown('## Create QR Business VCard for iPhone and Android Contact')
-st.write('This will produce a QR code in VCard format')
+st.write('This will produce a QR code in VCard format\nCreated by Phil Kim, MD (12/4/22)')
 
 #title
 profession_degree = ["DO", "MPH", "MD", "PhD"]
