@@ -195,7 +195,7 @@ with st.form('contact_info'):
     degree = st.multiselect("Professional Degree(s)", options=profession_degree, key='Degree')
     title = st.text_input("Enter Occupation Title", key='Title')
     org = st.text_input("Organization", key='Organization')
-    personal_cell = st.text_input("Cell Number", key='Cell', help='US Number Format (xxx)xxx-xxxxx')
+    personal_cell = st.text_input("Cell Number (optional)", key='Cell', help='US Number Format (xxx)xxx-xxxxx')
     work_phone = st.text_input("Work Number", key='Work')
     work_fax = st.text_input("Work Fax", key='Fax')
     business_add = st.text_input("Business Address", key='Address')
